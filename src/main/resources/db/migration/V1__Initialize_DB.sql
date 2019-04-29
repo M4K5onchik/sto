@@ -2,6 +2,7 @@ create table hibernate_sequence (next_val bigint);
 
 insert into hibernate_sequence (next_val) values (0);
 
+
 create table message (
                        id bigint not null,
                        filename varchar(255),
